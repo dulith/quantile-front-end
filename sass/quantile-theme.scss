@@ -1,0 +1,537 @@
+/*! color declaraton start*/
+$bg-primary-color: #ffffff;
+$bg-secondary-color: #f5f8fa;
+$blue-default: #019bde;
+$blue-hover:#0075b8;
+$green-default: #5c946e;
+$orange-default:#fbb13c;
+$orange-default-hover:#d58b16;
+$red-default:#ee6352;
+$dark-grey-default:#6c6c6c;
+$grayish-blue-default:#34333e;
+$lime-green:#73b989;
+$nav-bg:#34333e;
+$footer-bg:#f8f8f8;
+$footer-text:#4c5c68;
+$carousel-indecator-default:#1d1c22;
+$client-info:#18aabf;
+$text-white: #ffffff;
+$step-wizard-line:#e0e0e0;
+/*! color declaraton end*/
+
+/*! mixins style start*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/*! text style end*/
+
+/*! text style start*/
+
+body{
+	
+	font-family: 'open sans', Helvetica,Arial,sans-serif;
+}
+
+h2{
+	font-size: 2.33vw;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 10px !important;
+
+}
+
+h3{
+	font-size:2vw;
+	font-weight:300 !important;
+
+}
+
+h4{
+	font-size:1.63vw;
+	font-weight:300 !important;
+	margin-top: 8px !important;
+	margin-bottom: 16px !important;
+
+
+}
+
+h5{
+	font-size:1.25vw;
+	font-weight:600 !important;
+	margin-top: 8px !important;
+	margin-bottom: 16px !important;
+
+
+}
+/*! text style end*/
+
+/*! margin padding style end*/
+
+.margin-top-clear{
+	margin-top:0px !important
+}
+
+.margin-top-20{
+	margin-top:20px !important;
+}
+
+.margin-top-30{
+	margin-top:30px !important;
+}
+
+.margin-top-40{
+	margin-top:40px !important;
+}
+
+.margin-bottom-clear{
+	margin-bottom:0px !important
+}
+
+.margin-bottom-20{
+	margin-bottom:20px !important;
+}
+
+
+.margin-bottom-50{
+	margin-bottom:50px !important;
+}
+
+.margin-top-50{
+	margin-top:50px !important;
+}
+
+.margin-left-70{
+	margin-left:70px !important;
+}
+
+.margin-right-70{
+	margin-right:70px !important;
+}
+
+.padding-left-clear{
+	padding-left:0px !important
+}
+
+.padding-right-clear{
+	padding-right:0px !important
+}
+	
+
+/*! margin padding style end*/
+
+
+/*! form style start*/
+
+.btn, .btn:hover{
+    padding: 15px 40px;	
+    font-size: 1.05vw;
+    @include border-radius(6px);
+}
+.btn-primary {
+    color: #fff;
+    background-color: $blue-default;
+    border-color: $blue-default;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: $blue-hover;
+    border-color: $blue-hover;
+    transition: all 0.5s ease 0s;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: $orange-default;
+    border-color: $orange-default;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: $orange-default-hover;
+    border-color: $orange-default-hover;
+    transition: all 0.5s ease 0s;
+}
+/*! text style end*/
+
+/*! nav style start*/
+.navbar{
+	min-height:65px;
+}
+/*! nav style end*/
+
+/*! hero style start*/
+.q-hero{
+	margin-top:65px;
+	height:400px;
+	background:url('../img/hero-bg.jpg');
+	color:$text-white;
+	padding-top:5%;
+}
+/*! hero style end*/
+
+/*! services style start*/
+.q-services{
+	padding:60px 0 60px 0px;
+}
+/*! services style end*/
+
+/*! projects style start*/
+.q-projects{
+	height:400px;
+	background:$orange-default;
+}
+/*! projects style end*/
+
+/*! why quantile style start*/
+.q-why-quantile{
+	padding:60px 0 60px 0px;
+
+	.block-1{
+		border-left: 6px $blue-default solid;
+	}
+
+	.block-2{
+		border-left: 6px $orange-default solid;
+	}
+
+	.block-3{
+		border-left: 6px $dark-grey-default solid;
+	}
+
+	.block-4{
+		border-left: 6px $red-default solid;
+	}
+}
+/*! why quantile style end*/
+
+/*! clients style start*/
+.q-clients{
+	background:$bg-secondary-color;
+	padding:60px 0 60px 0px;
+
+	li{
+		width: 300px;
+	}
+}
+/*! clients style end*/
+
+/*! client-testimonial style start*/
+.q-client-testimonials{
+	height:400px;
+	background:url('../img/client-testimonial.jpg');
+}
+
+.q-client-testimonials-main-container{
+		// background:$bg-primary-color;
+		margin-top: 40px;
+	}
+
+.item{
+	 background:$bg-primary-color;
+	 padding-bottom: 30px !important;
+     padding-top: 25px;
+}
+
+/*! client-testimonial style end*/
+
+/*! how to hire a client style start*/
+.q-how-to-hire{
+	padding: 60px 0 60px 0px;
+}
+/*! how to hire a client style end*/
+
+/*! stats style start*/
+.q-stats{
+	padding:30px 0 30px 0px;
+	background:$grayish-blue-default;
+	color:$lime-green;
+
+	h1{
+		font-size: 5.83vw;
+		line-height: 60px;
+		font-weight: 100 !important;
+	}
+
+	small{
+		font-size: 2vw;
+	}
+}
+/*! stats style end*/
+
+/*! consultant style start*/
+.q-consultant-top{
+	background:url('../img/consultant-top.jpg');
+	background-size:cover;
+	color:$text-white;
+	padding: 60px 0 60px 0px;		
+}
+
+.q-consultant-bottom{
+	padding: 32px 0 60px 0px;
+}
+/*! consultant style end*/
+
+
+/*! footer style start*/
+.q-footer{
+	height:64px;
+	font-size:0.83vw;
+	padding-top:22px;
+	background:$footer-bg;
+	color:$footer-text;
+
+	a{
+		text-decoration:none;
+		cursor: pointer;
+	}
+
+	a.link{
+		color:$blue-default;	
+	}
+
+	a.link{
+		color:$blue-hover;	
+	}
+	
+
+}
+/*! footer style end*/
+
+
+/*! socialmedia style start*/
+.socialmedia{
+	li{
+		width:40px;
+		height:29px;
+	}
+	
+	.fb{
+		background:url('../img/fb-default.png') no-repeat;
+		
+	}
+	.g-plus{
+		background:url('../img/g-plus-default.png') no-repeat;
+	
+	}
+	.in{
+		background:url('../img/in-default.png') no-repeat;
+		
+	}
+	.twitter{
+		background:url('../img/twitter-default.png') no-repeat;
+	
+	}
+	.you-tube{
+		background:url('../img/you-tube-default.png') no-repeat;
+	
+	}			
+}	
+
+/*! socialmedia style end*/
+
+/*! Carousel style start*/
+/* carousel */
+
+.client-info{
+
+	margin-top:70px;
+	color:$client-info;
+
+	.client-name{
+		font-size: 1vw;
+	}
+
+	.company-name{
+		font-size: 0.83vw;
+	}
+	
+}
+
+.carousel-indicators li {
+    border: none;
+}
+
+.carousel-inner{
+	overflow:hidden;
+	height:270px;
+}
+
+.carousel-quote-symbol{
+	font-family:'oranienbaumregular';
+	font-size:40px;
+}
+
+.client-image{
+	position: absolute;
+    right: -45px;
+    top: 82px;
+}
+
+#quote-carousel 
+{
+  padding: 0 0px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: $carousel-indecator-default;
+  -webkit-transition: background 2s; /*adjust timing here */
+         -moz-transition: background 2s;
+           -o-transition: background 2s;
+              transition: background 2s;
+  margin-left: 10px;            
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: $orange-default;
+    -webkit-transition: background 2s; /*adjust timing here */
+         -moz-transition: background 2s;
+           -o-transition: background 2s;
+              transition: background 2s;
+}
+/* End carousel */
+
+blockquote{
+	padding: 10px 0px;
+}
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 20px 30px 0px;
+      margin-top: 30px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+
+/* Fade transition for carousel items */
+.carousel .item {
+    left: 0 !important;
+    opacity: 0;
+      -webkit-transition: opacity 2s; /*adjust timing here */
+         -moz-transition: opacity 2s;
+           -o-transition: opacity 2s;
+              transition: opacity 2s;
+}
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+/* Fade controls with items */
+.item.active{
+    opacity: 1;
+}
+
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 10;
+}
+.active.left,
+.active.right {
+    opacity: 0 !important;
+    z-index: 2;
+          -webkit-transition: opacity 2s; /*adjust timing here */
+         -moz-transition: opacity 2s;
+           -o-transition: opacity 2s;
+              transition: opacity 2s;
+}
+/*! Carousel style end*/
+
+/*! How it works style end*/
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color:$step-wizard-line;
+    z-order: 0;
+}
+
+.stepwizard-step{
+	font-size:2.17vw;
+	position: relative;
+    top: -24px;
+    background:$bg-primary-color;
+    // padding-right:5px;
+    // padding-left:5px;
+}
+
+/*! How it works style end*/
+
+
+

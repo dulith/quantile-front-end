@@ -1,0 +1,543 @@
+/* color declaraton start*/
+/* color declaraton end*/
+/* mixins style start*/
+/* text style end*/
+/* text style start*/
+/* line 34, ../sass/quantile-theme.scss */
+body {
+  font-family: 'open sans', Helvetica,Arial,sans-serif;
+}
+
+/* line 39, ../sass/quantile-theme.scss */
+h2 {
+  font-size: 2.33vw;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+
+/* line 47, ../sass/quantile-theme.scss */
+h3 {
+  font-size: 2vw;
+  font-weight: 300 !important;
+}
+
+/* line 53, ../sass/quantile-theme.scss */
+h4 {
+  font-size: 1.63vw;
+  font-weight: 300 !important;
+  margin-top: 8px !important;
+  margin-bottom: 16px !important;
+}
+
+/* line 62, ../sass/quantile-theme.scss */
+h5 {
+  font-size: 1.25vw;
+  font-weight: 600 !important;
+  margin-top: 8px !important;
+  margin-bottom: 16px !important;
+}
+
+/* text style end*/
+/* margin padding style end*/
+/* line 74, ../sass/quantile-theme.scss */
+.margin-top-clear {
+  margin-top: 0px !important;
+}
+
+/* line 78, ../sass/quantile-theme.scss */
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+
+/* line 82, ../sass/quantile-theme.scss */
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+
+/* line 86, ../sass/quantile-theme.scss */
+.margin-top-40 {
+  margin-top: 40px !important;
+}
+
+/* line 90, ../sass/quantile-theme.scss */
+.margin-bottom-clear {
+  margin-bottom: 0px !important;
+}
+
+/* line 94, ../sass/quantile-theme.scss */
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+/* line 99, ../sass/quantile-theme.scss */
+.margin-bottom-50 {
+  margin-bottom: 50px !important;
+}
+
+/* line 103, ../sass/quantile-theme.scss */
+.margin-top-50 {
+  margin-top: 50px !important;
+}
+
+/* line 107, ../sass/quantile-theme.scss */
+.margin-left-70 {
+  margin-left: 70px !important;
+}
+
+/* line 111, ../sass/quantile-theme.scss */
+.margin-right-70 {
+  margin-right: 70px !important;
+}
+
+/* line 115, ../sass/quantile-theme.scss */
+.padding-left-clear {
+  padding-left: 0px !important;
+}
+
+/* line 119, ../sass/quantile-theme.scss */
+.padding-right-clear {
+  padding-right: 0px !important;
+}
+
+/* margin padding style end*/
+/* form style start*/
+/* line 129, ../sass/quantile-theme.scss */
+.btn, .btn:hover {
+  padding: 15px 40px;
+  font-size: 1.05vw;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 134, ../sass/quantile-theme.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #019bde;
+  border-color: #019bde;
+}
+
+/* line 140, ../sass/quantile-theme.scss */
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0075b8;
+  border-color: #0075b8;
+  transition: all 0.5s ease 0s;
+}
+
+/* line 147, ../sass/quantile-theme.scss */
+.btn-secondary {
+  color: #fff;
+  background-color: #fbb13c;
+  border-color: #fbb13c;
+}
+
+/* line 153, ../sass/quantile-theme.scss */
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #d58b16;
+  border-color: #d58b16;
+  transition: all 0.5s ease 0s;
+}
+
+/* text style end*/
+/* nav style start*/
+/* line 162, ../sass/quantile-theme.scss */
+.navbar {
+  min-height: 65px;
+}
+
+/* nav style end*/
+/* hero style start*/
+/* line 168, ../sass/quantile-theme.scss */
+.q-hero {
+  margin-top: 65px;
+  height: 400px;
+  background: url("../img/hero-bg.jpg");
+  color: white;
+  padding-top: 5%;
+}
+
+/* hero style end*/
+/* services style start*/
+/* line 178, ../sass/quantile-theme.scss */
+.q-services {
+  padding: 60px 0 60px 0px;
+}
+
+/* services style end*/
+/* projects style start*/
+/* line 184, ../sass/quantile-theme.scss */
+.q-projects {
+  height: 400px;
+  background: #fbb13c;
+}
+
+/* projects style end*/
+/* why quantile style start*/
+/* line 191, ../sass/quantile-theme.scss */
+.q-why-quantile {
+  padding: 60px 0 60px 0px;
+}
+/* line 194, ../sass/quantile-theme.scss */
+.q-why-quantile .block-1 {
+  border-left: 6px #019bde solid;
+}
+/* line 198, ../sass/quantile-theme.scss */
+.q-why-quantile .block-2 {
+  border-left: 6px #fbb13c solid;
+}
+/* line 202, ../sass/quantile-theme.scss */
+.q-why-quantile .block-3 {
+  border-left: 6px #6c6c6c solid;
+}
+/* line 206, ../sass/quantile-theme.scss */
+.q-why-quantile .block-4 {
+  border-left: 6px #ee6352 solid;
+}
+
+/* why quantile style end*/
+/* clients style start*/
+/* line 213, ../sass/quantile-theme.scss */
+.q-clients {
+  background: #f5f8fa;
+  padding: 60px 0 60px 0px;
+}
+/* line 217, ../sass/quantile-theme.scss */
+.q-clients li {
+  width: 300px;
+}
+
+/* clients style end*/
+/* client-testimonial style start*/
+/* line 224, ../sass/quantile-theme.scss */
+.q-client-testimonials {
+  height: 400px;
+  background: url("../img/client-testimonial.jpg");
+}
+
+/* line 229, ../sass/quantile-theme.scss */
+.q-client-testimonials-main-container {
+  margin-top: 40px;
+}
+
+/* line 234, ../sass/quantile-theme.scss */
+.item {
+  background: white;
+  padding-bottom: 30px !important;
+  padding-top: 25px;
+}
+
+/* client-testimonial style end*/
+/* how to hire a client style start*/
+/* line 243, ../sass/quantile-theme.scss */
+.q-how-to-hire {
+  padding: 60px 0 60px 0px;
+}
+
+/* how to hire a client style end*/
+/* stats style start*/
+/* line 249, ../sass/quantile-theme.scss */
+.q-stats {
+  padding: 30px 0 30px 0px;
+  background: #34333e;
+  color: #73b989;
+}
+/* line 254, ../sass/quantile-theme.scss */
+.q-stats h1 {
+  font-size: 5.83vw;
+  line-height: 60px;
+  font-weight: 100 !important;
+}
+/* line 260, ../sass/quantile-theme.scss */
+.q-stats small {
+  font-size: 2vw;
+}
+
+/* stats style end*/
+/* consultant style start*/
+/* line 267, ../sass/quantile-theme.scss */
+.q-consultant-top {
+  background: url("../img/consultant-top.jpg");
+  background-size: cover;
+  color: white;
+  padding: 60px 0 60px 0px;
+}
+
+/* line 274, ../sass/quantile-theme.scss */
+.q-consultant-bottom {
+  padding: 32px 0 60px 0px;
+}
+
+/* consultant style end*/
+/* footer style start*/
+/* line 281, ../sass/quantile-theme.scss */
+.q-footer {
+  height: 64px;
+  font-size: 0.83vw;
+  padding-top: 22px;
+  background: #f8f8f8;
+  color: #4c5c68;
+}
+/* line 288, ../sass/quantile-theme.scss */
+.q-footer a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 293, ../sass/quantile-theme.scss */
+.q-footer a.link {
+  color: #019bde;
+}
+/* line 297, ../sass/quantile-theme.scss */
+.q-footer a.link {
+  color: #0075b8;
+}
+
+/* footer style end*/
+/* socialmedia style start*/
+/* line 308, ../sass/quantile-theme.scss */
+.socialmedia li {
+  width: 40px;
+  height: 29px;
+}
+/* line 313, ../sass/quantile-theme.scss */
+.socialmedia .fb {
+  background: url("../img/fb-default.png") no-repeat;
+}
+/* line 317, ../sass/quantile-theme.scss */
+.socialmedia .g-plus {
+  background: url("../img/g-plus-default.png") no-repeat;
+}
+/* line 321, ../sass/quantile-theme.scss */
+.socialmedia .in {
+  background: url("../img/in-default.png") no-repeat;
+}
+/* line 325, ../sass/quantile-theme.scss */
+.socialmedia .twitter {
+  background: url("../img/twitter-default.png") no-repeat;
+}
+/* line 329, ../sass/quantile-theme.scss */
+.socialmedia .you-tube {
+  background: url("../img/you-tube-default.png") no-repeat;
+}
+
+/* socialmedia style end*/
+/* Carousel style start*/
+/* carousel */
+/* line 340, ../sass/quantile-theme.scss */
+.client-info {
+  margin-top: 70px;
+  color: #18aabf;
+}
+/* line 345, ../sass/quantile-theme.scss */
+.client-info .client-name {
+  font-size: 1vw;
+}
+/* line 349, ../sass/quantile-theme.scss */
+.client-info .company-name {
+  font-size: 0.83vw;
+}
+
+/* line 355, ../sass/quantile-theme.scss */
+.carousel-indicators li {
+  border: none;
+}
+
+/* line 359, ../sass/quantile-theme.scss */
+.carousel-inner {
+  overflow: hidden;
+  height: 270px;
+}
+
+/* line 364, ../sass/quantile-theme.scss */
+.carousel-quote-symbol {
+  font-family: 'oranienbaumregular';
+  font-size: 40px;
+}
+
+/* line 369, ../sass/quantile-theme.scss */
+.client-image {
+  position: absolute;
+  right: -45px;
+  top: 82px;
+}
+
+/* line 376, ../sass/quantile-theme.scss */
+#quote-carousel {
+  padding: 0 0px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+/* Control buttons  */
+/* line 383, ../sass/quantile-theme.scss */
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+
+/* Previous button  */
+/* line 392, ../sass/quantile-theme.scss */
+#quote-carousel .carousel-control.left {
+  left: -12px;
+}
+
+/* Next button  */
+/* line 397, ../sass/quantile-theme.scss */
+#quote-carousel .carousel-control.right {
+  right: -12px !important;
+}
+
+/* Changes the position of the indicators */
+/* line 402, ../sass/quantile-theme.scss */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+
+/* Changes the color of the indicators */
+/* line 410, ../sass/quantile-theme.scss */
+#quote-carousel .carousel-indicators li {
+  background: #1d1c22;
+  -webkit-transition: background 2s;
+  /*adjust timing here */
+  -moz-transition: background 2s;
+  -o-transition: background 2s;
+  transition: background 2s;
+  margin-left: 10px;
+}
+
+/* line 419, ../sass/quantile-theme.scss */
+#quote-carousel .carousel-indicators .active {
+  background: #fbb13c;
+  -webkit-transition: background 2s;
+  /*adjust timing here */
+  -moz-transition: background 2s;
+  -o-transition: background 2s;
+  transition: background 2s;
+}
+
+/* End carousel */
+/* line 428, ../sass/quantile-theme.scss */
+blockquote {
+  padding: 10px 0px;
+}
+
+/* line 432, ../sass/quantile-theme.scss */
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+/* line 437, ../sass/quantile-theme.scss */
+.item blockquote img {
+  margin-bottom: 10px;
+}
+
+/**
+  MEDIA QUERIES
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* line 448, ../sass/quantile-theme.scss */
+  #quote-carousel {
+    margin-bottom: 0;
+    padding: 0 20px 30px 0px;
+    margin-top: 30px;
+  }
+}
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+  /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+  /* line 461, ../sass/quantile-theme.scss */
+  #quote-carousel .carousel-indicators {
+    bottom: -20px !important;
+  }
+
+  /* line 464, ../sass/quantile-theme.scss */
+  #quote-carousel .carousel-indicators li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 15px;
+    height: 15px;
+  }
+
+  /* line 470, ../sass/quantile-theme.scss */
+  #quote-carousel .carousel-indicators li.active {
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+  }
+}
+/* Fade transition for carousel items */
+/* line 481, ../sass/quantile-theme.scss */
+.carousel .item {
+  left: 0 !important;
+  opacity: 0;
+  -webkit-transition: opacity 2s;
+  /*adjust timing here */
+  -moz-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+/* line 489, ../sass/quantile-theme.scss */
+.carousel-control {
+  background-image: none !important;
+  /* remove background gradients on controls */
+}
+
+/* Fade controls with items */
+/* line 493, ../sass/quantile-theme.scss */
+.item.active {
+  opacity: 1;
+}
+
+/* line 498, ../sass/quantile-theme.scss */
+.next.left,
+.prev.right {
+  opacity: 1;
+  z-index: 10;
+}
+
+/* line 503, ../sass/quantile-theme.scss */
+.active.left,
+.active.right {
+  opacity: 0 !important;
+  z-index: 2;
+  -webkit-transition: opacity 2s;
+  /*adjust timing here */
+  -moz-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+/* Carousel style end*/
+/* How it works style end*/
+/* line 514, ../sass/quantile-theme.scss */
+.stepwizard-row:before {
+  top: 14px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  z-order: 0;
+}
+
+/* line 525, ../sass/quantile-theme.scss */
+.stepwizard-step {
+  font-size: 2.17vw;
+  position: relative;
+  top: -24px;
+  background: white;
+}
+
+/* How it works style end*/
