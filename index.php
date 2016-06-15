@@ -264,7 +264,7 @@
           </section>
           <section id="q-stats">
             <div class="container-fluid red-default q-stats"> 
-              <div class="container">
+              <div class="container text-center">
                 <div class="col-md-4 col-sm-4 col-xs-4">
                   <h1>600+</h1><small>Clients</small>
                 </div>
