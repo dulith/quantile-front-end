@@ -3,12 +3,12 @@
 /* mixins style start*/
 /* mixin style end*/
 /* text style start*/
-/* line 42, ../sass/quantile-theme.scss */
+/* line 42, ../sass/qantile-theme.scss */
 body {
   font-family: 'open sans', Helvetica,Arial,sans-serif;
 }
 
-/* line 47, ../sass/quantile-theme.scss */
+/* line 47, ../sass/qantile-theme.scss */
 h2 {
   font-size: 2.33vw;
   font-style: normal;
@@ -16,13 +16,13 @@ h2 {
   margin-bottom: 10px !important;
 }
 
-/* line 55, ../sass/quantile-theme.scss */
+/* line 55, ../sass/qantile-theme.scss */
 h3 {
   font-size: 2vw;
   font-weight: 300 !important;
 }
 
-/* line 61, ../sass/quantile-theme.scss */
+/* line 61, ../sass/qantile-theme.scss */
 h4 {
   font-size: 1.63vw;
   font-weight: 300 !important;
@@ -30,7 +30,7 @@ h4 {
   margin-bottom: 25px !important;
 }
 
-/* line 68, ../sass/quantile-theme.scss */
+/* line 68, ../sass/qantile-theme.scss */
 h5 {
   font-size: 1.25vw;
   font-weight: 600 !important;
@@ -40,69 +40,69 @@ h5 {
 
 /* text style end*/
 /* margin padding style end*/
-/* line 79, ../sass/quantile-theme.scss */
+/* line 79, ../sass/qantile-theme.scss */
 .margin-top-clear {
   margin-top: 0px !important;
 }
 
-/* line 83, ../sass/quantile-theme.scss */
+/* line 83, ../sass/qantile-theme.scss */
 .margin-top-20 {
   margin-top: 20px !important;
 }
 
-/* line 87, ../sass/quantile-theme.scss */
+/* line 87, ../sass/qantile-theme.scss */
 .margin-top-30 {
   margin-top: 30px !important;
 }
 
-/* line 91, ../sass/quantile-theme.scss */
+/* line 91, ../sass/qantile-theme.scss */
 .margin-top-40 {
   margin-top: 40px !important;
 }
 
-/* line 95, ../sass/quantile-theme.scss */
+/* line 95, ../sass/qantile-theme.scss */
 .margin-bottom-clear {
   margin-bottom: 0px !important;
 }
 
-/* line 99, ../sass/quantile-theme.scss */
+/* line 99, ../sass/qantile-theme.scss */
 .margin-bottom-20 {
   margin-bottom: 20px !important;
 }
 
-/* line 103, ../sass/quantile-theme.scss */
+/* line 103, ../sass/qantile-theme.scss */
 .margin-bottom-50 {
   margin-bottom: 50px !important;
 }
 
-/* line 107, ../sass/quantile-theme.scss */
+/* line 107, ../sass/qantile-theme.scss */
 .margin-top-50 {
   margin-top: 50px !important;
 }
 
-/* line 111, ../sass/quantile-theme.scss */
+/* line 111, ../sass/qantile-theme.scss */
 .margin-left-70 {
   margin-left: 70px !important;
 }
 
-/* line 115, ../sass/quantile-theme.scss */
+/* line 115, ../sass/qantile-theme.scss */
 .margin-right-70 {
   margin-right: 70px !important;
 }
 
-/* line 119, ../sass/quantile-theme.scss */
+/* line 119, ../sass/qantile-theme.scss */
 .padding-left-clear {
   padding-left: 0px !important;
 }
 
-/* line 123, ../sass/quantile-theme.scss */
+/* line 123, ../sass/qantile-theme.scss */
 .padding-right-clear {
   padding-right: 0px !important;
 }
 
 /* margin padding style end*/
 /* form style start*/
-/* line 130, ../sass/quantile-theme.scss */
+/* line 130, ../sass/qantile-theme.scss */
 .btn, .btn:hover {
   padding: 15px 40px;
   font-size: 1.05vw;
@@ -112,14 +112,14 @@ h5 {
   border-radius: 6px;
 }
 
-/* line 135, ../sass/quantile-theme.scss */
+/* line 135, ../sass/qantile-theme.scss */
 .btn-primary {
   color: #fff;
   background-color: #019bde;
   border-color: #019bde;
 }
 
-/* line 141, ../sass/quantile-theme.scss */
+/* line 141, ../sass/qantile-theme.scss */
 .btn-primary:hover {
   color: #fff;
   background-color: #0075b8;
@@ -127,14 +127,14 @@ h5 {
   transition: all 0.5s ease 0s;
 }
 
-/* line 148, ../sass/quantile-theme.scss */
+/* line 148, ../sass/qantile-theme.scss */
 .btn-secondary {
   color: #fff;
   background-color: #fbb13c;
   border-color: #fbb13c;
 }
 
-/* line 154, ../sass/quantile-theme.scss */
+/* line 154, ../sass/qantile-theme.scss */
 .btn-secondary:hover {
   color: #fff;
   background-color: #d58b16;
@@ -144,37 +144,36 @@ h5 {
 
 /* text style end*/
 /* nav style start*/
-/* line 163, ../sass/quantile-theme.scss */
+/* line 163, ../sass/qantile-theme.scss */
 .navbar {
   min-height: 65px;
   margin-bottom: 0px;
 }
 
-/* line 168, ../sass/quantile-theme.scss */
+/* line 168, ../sass/qantile-theme.scss */
 .navbar-brand {
   line-height: 35px;
-  margin-top: 5px;
 }
 
-/* line 174, ../sass/quantile-theme.scss */
+/* line 173, ../sass/qantile-theme.scss */
 .navbar-nav li a {
   padding-top: 23px;
   padding-bottom: 21px;
 }
-/* line 180, ../sass/quantile-theme.scss */
+/* line 179, ../sass/qantile-theme.scss */
 .navbar-nav .btn {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 14px;
   margin: 18px 0 0 0;
 }
-/* line 187, ../sass/quantile-theme.scss */
+/* line 186, ../sass/qantile-theme.scss */
 .navbar-nav .nav-btn-primary {
   color: #fff;
   background-color: #403f4c;
   border-color: #403f4c;
 }
-/* line 193, ../sass/quantile-theme.scss */
+/* line 192, ../sass/qantile-theme.scss */
 .navbar-nav .nav-btn-primary:hover {
   color: #fff;
   background-color: #1a1926;
@@ -182,23 +181,23 @@ h5 {
   transition: all 0.5s ease 0s;
 }
 
-/* line 201, ../sass/quantile-theme.scss */
+/* line 200, ../sass/qantile-theme.scss */
 .navbar-inverse {
   background-color: #34333e;
   border-color: transparent;
 }
-/* line 207, ../sass/quantile-theme.scss */
+/* line 206, ../sass/qantile-theme.scss */
 .navbar-inverse .navbar-nav li a {
   color: #ffffff;
 }
-/* line 213, ../sass/quantile-theme.scss */
+/* line 212, ../sass/qantile-theme.scss */
 .navbar-inverse .dropdown-menu {
   background-color: #34333e;
 }
 
 /* nav style end*/
 /* hero style start*/
-/* line 221, ../sass/quantile-theme.scss */
+/* line 222, ../sass/qantile-theme.scss */
 .q-hero {
   height: 40vh;
   background: url("../img/hero-bg.jpg");
@@ -209,98 +208,95 @@ h5 {
 
 /* hero style end*/
 /* services style start*/
-/* line 231, ../sass/quantile-theme.scss */
+/* line 232, ../sass/qantile-theme.scss */
 .q-services {
   padding: 60px 0 60px 0px;
 }
 
 /* services style end*/
 /* projects style start*/
-/* line 237, ../sass/quantile-theme.scss */
+/* line 238, ../sass/qantile-theme.scss */
 .q-projects {
   background: #f5f8fa;
 }
 
 /* projects style end*/
 /* why quantile style start*/
-/* line 243, ../sass/quantile-theme.scss */
+/* line 244, ../sass/qantile-theme.scss */
 .q-why-quantile {
   padding: 60px 0 60px 0px;
 }
-/* line 246, ../sass/quantile-theme.scss */
+/* line 247, ../sass/qantile-theme.scss */
 .q-why-quantile .block-1 {
   border-left: 6px #019bde solid;
 }
-/* line 250, ../sass/quantile-theme.scss */
+/* line 251, ../sass/qantile-theme.scss */
 .q-why-quantile .block-2 {
   border-left: 6px #fbb13c solid;
 }
-/* line 254, ../sass/quantile-theme.scss */
+/* line 255, ../sass/qantile-theme.scss */
 .q-why-quantile .block-3 {
   border-left: 6px #6c6c6c solid;
 }
-/* line 258, ../sass/quantile-theme.scss */
+/* line 259, ../sass/qantile-theme.scss */
 .q-why-quantile .block-4 {
   border-left: 6px #ee6352 solid;
 }
 
 /* why quantile style end*/
 /* clients style start*/
-/* line 265, ../sass/quantile-theme.scss */
+/* line 266, ../sass/qantile-theme.scss */
 .q-clients {
   background: #f5f8fa;
   padding: 60px 0 60px 0px;
 }
-/* line 269, ../sass/quantile-theme.scss */
+/* line 270, ../sass/qantile-theme.scss */
 .q-clients li {
   width: 300px;
 }
 
 /* clients style end*/
 /* client testimonial style start*/
-/* line 276, ../sass/quantile-theme.scss */
+/* line 277, ../sass/qantile-theme.scss */
 .q-client-testimonials {
   height: 54vh;
   background: url("../img/client-testimonial.jpg");
 }
 
-/* line 281, ../sass/quantile-theme.scss */
+/* line 282, ../sass/qantile-theme.scss */
 .q-client-testimonials-main-container {
   margin-top: 40px;
 }
 
-/* line 286, ../sass/quantile-theme.scss */
+/* line 287, ../sass/qantile-theme.scss */
 .item {
   background: white;
   padding-bottom: 30px !important;
   padding-top: 25px;
-  -webkit-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.32);
-  -moz-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.32);
-  box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.32);
 }
 
 /* client testimonial style end*/
 /* how to hire a client style start*/
-/* line 297, ../sass/quantile-theme.scss */
+/* line 295, ../sass/qantile-theme.scss */
 .q-how-to-hire {
   padding: 60px 0 60px 0px;
 }
 
 /* how to hire a client style end*/
 /* stats style start*/
-/* line 303, ../sass/quantile-theme.scss */
+/* line 301, ../sass/qantile-theme.scss */
 .q-stats {
   padding: 30px 0 30px 0px;
   background: #34333e;
   color: #73b989;
 }
-/* line 308, ../sass/quantile-theme.scss */
+/* line 306, ../sass/qantile-theme.scss */
 .q-stats h1 {
   font-size: 4.1vw;
   line-height: 60px;
   font-weight: 100 !important;
 }
-/* line 314, ../sass/quantile-theme.scss */
+/* line 312, ../sass/qantile-theme.scss */
 .q-stats small {
   font-size: 1.5vw;
   padding-left: 5px;
@@ -308,7 +304,7 @@ h5 {
 
 /* stats style end*/
 /* consultant style start*/
-/* line 322, ../sass/quantile-theme.scss */
+/* line 320, ../sass/qantile-theme.scss */
 .q-consultant-top {
   background: url("../img/consultant-top.jpg");
   background-size: cover;
@@ -316,14 +312,14 @@ h5 {
   padding: 60px 0 60px 0px;
 }
 
-/* line 329, ../sass/quantile-theme.scss */
+/* line 327, ../sass/qantile-theme.scss */
 .q-consultant-bottom {
   padding: 32px 0 60px 0px;
 }
 
 /* consultant style end*/
 /* footer style start*/
-/* line 336, ../sass/quantile-theme.scss */
+/* line 334, ../sass/qantile-theme.scss */
 .q-footer {
   height: 64px;
   font-size: 0.83vw;
@@ -331,44 +327,44 @@ h5 {
   background: #f8f8f8;
   color: #4c5c68;
 }
-/* line 343, ../sass/quantile-theme.scss */
+/* line 341, ../sass/qantile-theme.scss */
 .q-footer a {
   text-decoration: none;
   cursor: pointer;
 }
-/* line 348, ../sass/quantile-theme.scss */
+/* line 346, ../sass/qantile-theme.scss */
 .q-footer a.link {
   color: #019bde;
 }
-/* line 352, ../sass/quantile-theme.scss */
+/* line 350, ../sass/qantile-theme.scss */
 .q-footer a.link {
   color: #0075b8;
 }
 
 /* footer style end*/
 /* socialmedia style start*/
-/* line 361, ../sass/quantile-theme.scss */
+/* line 361, ../sass/qantile-theme.scss */
 .socialmedia li {
   width: 40px;
   height: 29px;
 }
-/* line 366, ../sass/quantile-theme.scss */
+/* line 366, ../sass/qantile-theme.scss */
 .socialmedia .fb {
   background: url("../img/fb-default.png") no-repeat;
 }
-/* line 370, ../sass/quantile-theme.scss */
+/* line 370, ../sass/qantile-theme.scss */
 .socialmedia .g-plus {
   background: url("../img/g-plus-default.png") no-repeat;
 }
-/* line 374, ../sass/quantile-theme.scss */
+/* line 374, ../sass/qantile-theme.scss */
 .socialmedia .in {
   background: url("../img/in-default.png") no-repeat;
 }
-/* line 378, ../sass/quantile-theme.scss */
+/* line 378, ../sass/qantile-theme.scss */
 .socialmedia .twitter {
   background: url("../img/twitter-default.png") no-repeat;
 }
-/* line 382, ../sass/quantile-theme.scss */
+/* line 382, ../sass/qantile-theme.scss */
 .socialmedia .you-tube {
   background: url("../img/you-tube-default.png") no-repeat;
 }
@@ -376,57 +372,83 @@ h5 {
 /* socialmedia style end*/
 /* carousel style start*/
 /* carousel */
-/* line 392, ../sass/quantile-theme.scss */
+/* line 392, ../sass/qantile-theme.scss */
 .client-info {
   margin-top: 70px;
   color: #18aabf;
 }
-/* line 397, ../sass/quantile-theme.scss */
+/* line 397, ../sass/qantile-theme.scss */
 .client-info .client-name {
   font-size: 1vw;
 }
-/* line 401, ../sass/quantile-theme.scss */
+/* line 401, ../sass/qantile-theme.scss */
 .client-info .company-name {
   font-size: 0.83vw;
 }
 
-/* line 407, ../sass/quantile-theme.scss */
+/* line 407, ../sass/qantile-theme.scss */
 .carousel-indicators li {
   border: none;
 }
 
-/* line 411, ../sass/quantile-theme.scss */
+/* line 411, ../sass/qantile-theme.scss */
 .carousel-inner {
   overflow: hidden;
   height: 270px;
 }
 
-/* line 416, ../sass/quantile-theme.scss */
+/* line 416, ../sass/qantile-theme.scss */
 .carousel-quote-symbol {
   font-family: 'oranienbaumregular';
   font-size: 40px;
 }
 
-/* line 421, ../sass/quantile-theme.scss */
+/* line 421, ../sass/qantile-theme.scss */
 .client-image {
   position: absolute;
   right: -45px;
   top: 82px;
 }
 
-/* line 428, ../sass/quantile-theme.scss */
+/* line 428, ../sass/qantile-theme.scss */
 #quote-carousel {
   padding: 0 0px 30px 10px;
   margin-top: 30px 0px 0px;
 }
-/* line 433, ../sass/quantile-theme.scss */
+
+/* control buttons  */
+/* line 435, ../sass/qantile-theme.scss */
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+
+/* previous button  */
+/* line 444, ../sass/qantile-theme.scss */
+#quote-carousel .carousel-control.left {
+  left: -12px;
+}
+
+/* next button  */
+/* line 449, ../sass/qantile-theme.scss */
+#quote-carousel .carousel-control.right {
+  right: -12px !important;
+}
+
+/* Changes the position of the indicators */
+/* line 454, ../sass/qantile-theme.scss */
 #quote-carousel .carousel-indicators {
   right: 50%;
   top: auto;
   bottom: -10px;
   margin-right: -19px;
 }
-/* line 441, ../sass/quantile-theme.scss */
+
+/* Changes the color of the indicators */
+/* line 462, ../sass/qantile-theme.scss */
 #quote-carousel .carousel-indicators li {
   background: #1d1c22;
   margin-left: 10px;
@@ -436,7 +458,8 @@ h5 {
   -o-transition: background 2s;
   transition: background 2s;
 }
-/* line 450, ../sass/quantile-theme.scss */
+
+/* line 471, ../sass/qantile-theme.scss */
 #quote-carousel .carousel-indicators .active {
   background: #fbb13c;
   -webkit-transition: background 2s;
@@ -447,24 +470,24 @@ h5 {
 }
 
 /* End carousel */
-/* line 461, ../sass/quantile-theme.scss */
+/* line 480, ../sass/qantile-theme.scss */
 blockquote {
   padding: 10px 0px;
 }
 
-/* line 465, ../sass/quantile-theme.scss */
+/* line 484, ../sass/qantile-theme.scss */
 .item blockquote {
   border-left: none;
   margin: 0;
 }
 
-/* line 470, ../sass/quantile-theme.scss */
+/* line 489, ../sass/qantile-theme.scss */
 .item blockquote img {
   margin-bottom: 10px;
 }
 
 /* Fade transition for carousel items */
-/* line 475, ../sass/quantile-theme.scss */
+/* line 494, ../sass/qantile-theme.scss */
 .carousel .item {
   left: 0 !important;
   opacity: 0;
@@ -475,20 +498,26 @@ blockquote {
   transition: opacity 2s;
 }
 
+/* line 502, ../sass/qantile-theme.scss */
+.carousel-control {
+  background-image: none !important;
+  /* remove background gradients on controls */
+}
+
 /* Fade controls with items */
-/* line 485, ../sass/quantile-theme.scss */
+/* line 506, ../sass/qantile-theme.scss */
 .item.active {
   opacity: 1;
 }
 
-/* line 490, ../sass/quantile-theme.scss */
+/* line 511, ../sass/qantile-theme.scss */
 .next.left,
 .prev.right {
   opacity: 1;
   z-index: 10;
 }
 
-/* line 495, ../sass/quantile-theme.scss */
+/* line 516, ../sass/qantile-theme.scss */
 .active.left,
 .active.right {
   opacity: 0 !important;
@@ -502,7 +531,7 @@ blockquote {
 
 /* Carousel style end*/
 /* How it works style end*/
-/* line 506, ../sass/quantile-theme.scss */
+/* line 527, ../sass/qantile-theme.scss */
 .stepwizard-row:before {
   top: 14px;
   bottom: 0;
@@ -514,7 +543,7 @@ blockquote {
   z-order: 0;
 }
 
-/* line 517, ../sass/quantile-theme.scss */
+/* line 538, ../sass/qantile-theme.scss */
 .stepwizard-step {
   font-size: 2.17vw;
   position: relative;
@@ -529,14 +558,14 @@ blockquote {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   /* carousel style start*/
-  /* line 535, ../sass/quantile-theme.scss */
+  /* line 556, ../sass/qantile-theme.scss */
   #quote-carousel {
     margin-bottom: 0;
     padding: 0 20px 30px 0px;
     margin-top: 30px;
   }
 
-  /* line 541, ../sass/quantile-theme.scss */
+  /* line 562, ../sass/qantile-theme.scss */
   .q-client-testimonials {
     height: 53vh;
     background: url("../img/client-testimonial.jpg");
@@ -544,7 +573,7 @@ blockquote {
 
   /* carousel style end*/
   /* stats style start*/
-  /* line 549, ../sass/quantile-theme.scss */
+  /* line 570, ../sass/qantile-theme.scss */
   .q-stats h1 {
     font-size: 4.1vw;
     line-height: 30px;
@@ -553,7 +582,7 @@ blockquote {
 
   /* stats style end*/
   /* how to hire a client style start*/
-  /* line 558, ../sass/quantile-theme.scss */
+  /* line 579, ../sass/qantile-theme.scss */
   .logo-list li {
     width: 24%;
   }
@@ -562,82 +591,79 @@ blockquote {
 }
 /* small devices (tablets, up to 768px) */
 @media (max-width: 768px) {
-  /* line 568, ../sass/quantile-theme.scss */
-  .q-quote-des {
-    padding-left: 30px;
-  }
-
+  /* make the indicators larger for easier clicking with fingers/thumb on mobile */
   /* text style start*/
-  /* line 573, ../sass/quantile-theme.scss */
+  /* line 592, ../sass/qantile-theme.scss */
   h5 {
     font-size: 2vw;
     margin-bottom: 5px !important;
   }
 
-  /* line 578, ../sass/quantile-theme.scss */
+  /* line 597, ../sass/qantile-theme.scss */
   h3 {
     font-size: 3vw;
   }
 
   /* text style end*/
   /*Form style start*/
-  /* line 585, ../sass/quantile-theme.scss */
+  /* line 604, ../sass/qantile-theme.scss */
   .btn, .btn:hover {
     font-size: 2.05vw;
-    width: 50%;
+    width: 75%;
   }
 
-  /* line 590, ../sass/quantile-theme.scss */
+  /* line 609, ../sass/qantile-theme.scss */
   hr {
     border: none;
   }
 
   /*Form style end*/
   /* hero style start*/
-  /* line 596, ../sass/quantile-theme.scss */
+  /* line 615, ../sass/qantile-theme.scss */
   .q-hero {
     height: 22vh;
   }
 
   /* hero style end*/
   /* carousel style start*/
-  /* line 602, ../sass/quantile-theme.scss */
+  /* line 621, ../sass/qantile-theme.scss */
   .carousel-inner {
     height: 220px;
   }
 
-  /* line 608, ../sass/quantile-theme.scss */
+  /* line 625, ../sass/qantile-theme.scss */
   #quote-carousel .carousel-indicators li {
     display: inline-block;
     margin: 0px 5px;
     width: 15px;
     height: 15px;
   }
-  /* line 616, ../sass/quantile-theme.scss */
-  #quote-carousel li.active {
+
+  /* line 631, ../sass/qantile-theme.scss */
+  #quote-carousel .carousel-indicators li.active {
     margin: 0px 5px;
     width: 20px;
     height: 20px;
   }
 
-  /* line 622, ../sass/quantile-theme.scss */
+  /* line 637, ../sass/qantile-theme.scss */
   .client-image {
     visibility: hidden;
   }
 
-  /* line 626, ../sass/quantile-theme.scss */
+  /* line 641, ../sass/qantile-theme.scss */
   .q-client-testimonials {
     height: 33vh;
   }
 
   /* carousel style end*/
   /* how to hire a client style start*/
-  /* line 633, ../sass/quantile-theme.scss */
+  /* line 648, ../sass/qantile-theme.scss */
   .logo-list li {
     width: 24%;
   }
 
-  /* line 638, ../sass/quantile-theme.scss */
+  /* line 653, ../sass/qantile-theme.scss */
   .stepwizard-step {
     font-size: 2.17vw;
     position: relative;
@@ -645,36 +671,35 @@ blockquote {
     background: white;
   }
 
-  /* line 646, ../sass/quantile-theme.scss */
+  /* line 661, ../sass/qantile-theme.scss */
   .q-stats
   h1 {
     line-height: 12px;
     text-align: center;
   }
 
-  /* line 651, ../sass/quantile-theme.scss */
+  /* line 666, ../sass/qantile-theme.scss */
   small {
     padding-left: 34% !important;
   }
 
   /* how to hire a client style end*/
   /* footer style end*/
-  /* line 657, ../sass/quantile-theme.scss */
+  /* line 672, ../sass/qantile-theme.scss */
   .q-footer {
     font-size: 1.3vw !important;
     padding-top: 22px;
   }
 
-  /* line 662, ../sass/quantile-theme.scss */
+  /* line 677, ../sass/qantile-theme.scss */
   .copyrights {
     padding-top: 10px;
   }
 
   /* footer style end*/
 }
-/* large devices (laptops, less than 1200px) */
 @media (min-width: 1200px) {
-  /* line 671, ../sass/quantile-theme.scss */
+  /* line 684, ../sass/qantile-theme.scss */
   .q-client-testimonials {
     height: 430px;
     background: url("../img/client-testimonial.jpg");

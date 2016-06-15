@@ -167,7 +167,6 @@ h5{
 
 .navbar-brand {
     line-height: 35px;
-    margin-top:5px;
 }
 .navbar-nav{
 	li {
@@ -214,6 +213,8 @@ h5{
     	background-color:$nav-bg;
 	}
 }
+
+
 
 /*! nav style end*/
 
@@ -287,9 +288,6 @@ h5{
 	 background:$bg-primary-color;
 	 padding-bottom: 30px !important;
      padding-top: 25px;
-     -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.32);
-	 -moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.32);
-	 box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.32);
 }
 /*! client testimonial style end*/
 
@@ -352,6 +350,8 @@ h5{
 	a.link{
 		color:$blue-hover;	
 	}
+	
+
 }
 /*! footer style end*/
 
@@ -428,34 +428,53 @@ h5{
 {
   padding: 0 0px 30px 10px;
   margin-top: 30px 0px 0px;
-
-  .carousel-indicators 
-	{
-	  right: 50%;
-	  top: auto;
-	  bottom: -10px;
-	  margin-right: -19px;
-	}
-
-	.carousel-indicators li 
-	{
-	  background: $carousel-indecator-default;
-	  margin-left: 10px;
-	    -webkit-transition: background 2s; /*adjust timing here */
-	         -moz-transition: background 2s;
-	           -o-transition: background 2s;
-	              transition: background 2s;          
-	}
-	.carousel-indicators .active 
-	{
-	  background: $orange-default;
-	    -webkit-transition: background 2s; /*adjust timing here */
-	         -moz-transition: background 2s;
-	           -o-transition: background 2s;
-	              transition: background 2s;
-	}
 }
 
+/* control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: $carousel-indecator-default;
+  margin-left: 10px;
+    -webkit-transition: background 2s; /*adjust timing here */
+         -moz-transition: background 2s;
+           -o-transition: background 2s;
+              transition: background 2s;          
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: $orange-default;
+    -webkit-transition: background 2s; /*adjust timing here */
+         -moz-transition: background 2s;
+           -o-transition: background 2s;
+              transition: background 2s;
+}
 /* End carousel */
 
 blockquote{
@@ -480,7 +499,9 @@ blockquote{
     -o-transition: opacity 2s;
     transition: opacity 2s;
 }
-
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
 /* Fade controls with items */
 .item.active{
     opacity: 1;
@@ -565,9 +586,7 @@ blockquote{
 /* small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
 
-	.q-quote-des{
-		padding-left:30px;
-	}
+/* make the indicators larger for easier clicking with fingers/thumb on mobile */
 
 /*! text style start*/
 	h5 {
@@ -584,15 +603,15 @@ blockquote{
 	/*Form style start*/
 		.btn, .btn:hover {
     	font-size: 2.05vw;
-    	width: 50%;
+    	width: 75%;
 	}
 
 	hr{
 		border:none;
 	}
-/*Form style end*/
+	/*Form style end*/
 
-/*! hero style start*/
+	/*! hero style start*/
     .q-hero {
     	height: 22vh;
 	}
@@ -603,22 +622,18 @@ blockquote{
     	height: 220px;
 	}
 
-    #quote-carousel{
-    	.carousel-indicators {
-    		li {
-        		display: inline-block;
-        		margin: 0px 5px;
-        		width: 15px;
-        		height: 15px;
-    			}
-    		}
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
 
-    		li.active {
-        		margin: 0px 5px;
-        		width: 20px;
-        		height: 20px;
-    		}
-    	} 
     .client-image{
     	visibility: hidden;
     }
@@ -626,9 +641,9 @@ blockquote{
     .q-client-testimonials{
 		height:33vh;
 	}
-/*! carousel style end*/
+    /*! carousel style end*/
 
-/*! how to hire a client style start*/
+    /*! how to hire a client style start*/
     .logo-list{
     	li{
     	width: 24%; 
@@ -664,8 +679,6 @@ blockquote{
 	}
 	/*! footer style end*/
 }
-
-/* large devices (laptops, less than 1200px) */
 
 @media(min-width: 1200px) { 
     .q-client-testimonials {
