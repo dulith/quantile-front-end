@@ -10,6 +10,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/qantile-theme.css" rel="stylesheet">
+        <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet">        
         <link rel="stylesheet" type="text/css" href="https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" />
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -68,7 +69,7 @@
               </div>
               <div class="col-md-4 margin-top-30">
                  <img src="img/service-icon-5.png" alt="">
-                 <h5 class="margin-top-clear margin-top-20">Business Consulting</h5>
+                 <h5 class="margin-top-clear margin-top-20">Business Consultancy</h5>
                  <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
               <div class="col-md-4 margin-top-30">
@@ -329,5 +330,9 @@
             <script src="../../assets/js/docs.min.js"></script>
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+            <!-- SmartMenus jQuery plugin -->
+            <script type="text/javascript" src="js/jquery-smartmenus.js"></script>
+            <!-- SmartMenus jQuery Bootstrap Addon -->
+            <script type="text/javascript" src="js/jquery-smartmenus-bootstrap.js"></script>
           </body>
         </html>
