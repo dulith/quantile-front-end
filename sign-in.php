@@ -22,9 +22,9 @@
 </head>
   <body>
     <!--nav Section start-->
-    <section id="q-navbar">
-      <? include 'header.php';?>
-    </section>
+      <section id="q-navbar">
+        <? include 'header.php';?>
+      </section>
     <!--nav Section end-->
     <!--Hero section start-->
     <section id="middle-content">
@@ -34,25 +34,25 @@
            <h5>Consultant’s Sign in <br><small>Sign in to pitch project proposals or manage projects</small></h5>
           </div>
           <div class="sign-in-registration-middle-container">
-                        <form role="form">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Email address" data-toggle="floatLabel" data-value="no-js">
-                        <label for="first_name">Email address</label>
-                        <div class="error-msg"><!--Error message through JS--></div>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12">
+                <form role="form">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
                       <div class="form-group">
-                          <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Password" data-toggle="floatLabel" data-value="no-js">
-                          <label for="first_name">Password</label>
-                          <a href="" class="pull-right margin-top-10 margin-bottom-20">Forgot password</a>
+                          <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Email address [required]" data-toggle="floatLabel" data-value="no-js">
+                          <label for="first_name">Email address [required]</label>
                           <div class="error-msg"><!--Error message through JS--></div>
                       </div>
-                  </div>                 
-                </div>               
-                <input type="submit" value="Sign in" class="btn btn-primary btn-block">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="form-group">
+                            <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Password [required]" data-toggle="floatLabel" data-value="no-js">
+                            <label for="first_name">Password [required]</label>
+                            <a href="" class="pull-right margin-top-10 margin-bottom-20">Forgot password</a>
+                            <div class="error-msg"><!--Error message through JS--></div>
+                        </div>
+                    </div>                 
+                  </div>               
+                  <input type="submit" value="Sign in" class="btn btn-primary btn-block">
               </form>
                 <div class="margin-top-10">Not an active Client?  <a href="">Start a Project</a></div>
           </div>

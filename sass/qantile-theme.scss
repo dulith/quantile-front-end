@@ -21,6 +21,7 @@ $nav-button-default:#403f4c;
 $nav-button-hover:#1a1926;
 $sign-in-border:#eef1f3;
 $sign-in-header:#4c5c68;
+$input-bg:#f8fbfd;
 
 /*! color declaraton end*/
 
@@ -72,8 +73,18 @@ h5{
 	font-weight:600 !important;
 	margin-top: 8px !important;
 	margin-bottom: 16px !important;
+}
 
+h6{
+  font-size:1.11vw;
+  font-weight:600 !important;
+  margin-top: 8px !important;
+  margin-bottom: 16px !important;
+}
 
+hr {
+  border-top:1px solid $step-wizard-line;
+  margin-top:0pc;
 }
 /*! text style end*/
 
@@ -114,6 +125,10 @@ h5{
 	margin-bottom:20px !important;
 }
 
+.margin-bottom-25{
+  margin-bottom:25px !important;
+}
+
 .margin-bottom-50{
 	margin-bottom:50px !important;
 }
@@ -146,6 +161,26 @@ h5{
     font-size: 1.05vw;
     @include border-radius(6px);
 }
+
+
+.btn-small, .btn-small:hover{
+    padding: 15px 40px; 
+    font-size: 1.05vw;
+    @include border-radius(6px);
+}
+
+.btn-small, .btn-small:hover{
+    padding: 5px 40px; 
+    font-size: 0.83vw;
+    @include border-radius(6px);
+}
+
+.btn-browse, .btn-browse:hover{
+    padding: 14px 40px; 
+    font-size: 0.83vw;
+    @include border-radius(6px);
+}
+
 .btn-primary {
     color: #fff;
     background-color: $blue-default;
@@ -174,6 +209,7 @@ h5{
 
 .error-msg{
     color: $red-default;
+
 }
 
 a link{
@@ -183,6 +219,42 @@ a:focus, a:hover {
     color: $blue-hover ;
     text-decoration: none;
 }
+
+.input-sm{
+  background:$input-bg;
+}
+
+.sign-up-text-area{
+  height: 160px !important;
+}
+
+.image-preview-input {
+    position: relative;
+  overflow: hidden;
+  margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+.browse-field{
+  height: 49px;
+}
+
 /*! formstyle end*/
 
 /*! nav style start*/
@@ -432,7 +504,7 @@ a:focus, a:hover {
 
 /*! template style start*/
 #middle-content{
-  height: 93vh;
+  min-height: 93vh;
   background:$bg-secondary-color;
 }
 

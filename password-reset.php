@@ -34,17 +34,17 @@
            <h5>Forgot Your Password?<br><small>To obtain a new password, please enter your email address and a link will be emailed to you.</small></h5>
           </div>
           <div class="sign-in-registration-middle-container">
-                        <form role="form">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Email address" data-toggle="floatLabel" data-value="no-js">
-                        <label for="first_name">Email address</label>
-                    <div class="error-msg"><!--Error message through JS--></div>
-                    </div>
-                  </div>                
-                </div>               
-                <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                <form role="form">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                      <div class="form-group">
+                          <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Email address" data-toggle="floatLabel" data-value="no-js">
+                          <label for="first_name">Email address [required]</label>
+                      <div class="error-msg"><!--Error message through JS--></div>
+                      </div>
+                    </div>                
+                  </div>               
+                  <input type="submit" value="Submit" class="btn btn-primary btn-block">
               </form>
           </div>
         </div>        
