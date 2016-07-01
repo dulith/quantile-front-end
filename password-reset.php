@@ -31,7 +31,7 @@
       <div class="container">
         <div class="col-md-6 col-md-offset-3 sign-in-registration-main-container">
           <div class="sign-in-registration-header-container">
-           <h5>Consultant’s Sign in <br><small>Sign in to pitch project proposals or manage projects</small></h5>
+           <h5>Forgot Your Password?<br><small>To obtain a new password, please enter your email address and a link will be emailed to you.</small></h5>
           </div>
           <div class="sign-in-registration-middle-container">
                         <form role="form">
@@ -40,21 +40,12 @@
                     <div class="form-group">
                         <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Email address" data-toggle="floatLabel" data-value="no-js">
                         <label for="first_name">Email address</label>
-                        <div class="error-msg"><!--Error message through JS--></div>
+                    <div class="error-msg"><!--Error message through JS--></div>
                     </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                      <div class="form-group">
-                          <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Password" data-toggle="floatLabel" data-value="no-js">
-                          <label for="first_name">Password</label>
-                          <a href="" class="pull-right margin-top-10 margin-bottom-20">Forgot password</a>
-                          <div class="error-msg"><!--Error message through JS--></div>
-                      </div>
-                  </div>                 
+                  </div>                
                 </div>               
-                <input type="submit" value="Sign in" class="btn btn-primary btn-block">
+                <input type="submit" value="Submit" class="btn btn-primary btn-block">
               </form>
-                <div class="margin-top-10">Not an active Client?  <a href="">Start a Project</a></div>
           </div>
         </div>        
       </div>

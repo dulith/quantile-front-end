@@ -19,6 +19,8 @@ $text-white: #ffffff;
 $step-wizard-line:#e0e0e0;
 $nav-button-default:#403f4c;
 $nav-button-hover:#1a1926;
+$sign-in-border:#eef1f3;
+$sign-in-header:#4c5c68;
 
 /*! color declaraton end*/
 
@@ -80,6 +82,10 @@ h5{
 	margin-top:0px !important
 }
 
+.margin-top-10{
+  margin-top:10px !important;
+}
+
 .margin-top-14{
 	margin-top:14px !important;
 }
@@ -98,6 +104,10 @@ h5{
 
 .margin-bottom-clear{
 	margin-bottom:0px !important
+}
+
+.margin-bottom-10{
+  margin-bottom:10px !important;
 }
 
 .margin-bottom-20{
@@ -161,7 +171,19 @@ h5{
     border-color: $orange-default-hover;
     transition: all 0.5s ease 0s;
 }
-/*! text style end*/
+
+.error-msg{
+    color: $red-default;
+}
+
+a link{
+  color: $blue-default;
+}
+a:focus, a:hover {
+    color: $blue-hover ;
+    text-decoration: none;
+}
+/*! formstyle end*/
 
 /*! nav style start*/
 .navbar{
@@ -411,6 +433,7 @@ h5{
 /*! template style start*/
 #middle-content{
   height: 93vh;
+  background:$bg-secondary-color;
 }
 
 /*! template style end*/
@@ -625,10 +648,44 @@ blockquote{
 	position: relative;
     top: -24px;
     background:$bg-primary-color;
-    // padding-right:5px;
-    // padding-left:5px;
 }
 /*! How it works style end*/
+
+/*! Sign in style start*/
+.sign-in-registration-main-container{
+  margin-top: 85px;
+}
+
+.sign-in-registration-header-container{
+  padding:20px 25px;
+  background: $sign-in-header;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border: 1px solid $sign-in-border;
+  border-bottom:none;
+  color:$text-white;
+
+  h5{
+    font-weight: normal !important;
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+  }
+
+  small{
+    font-size: 0.95vw;
+    color:$text-white;
+  }
+
+}
+
+.sign-in-registration-middle-container{
+  padding:35px 25px;
+  background: $bg-primary-color;
+  border-left: 1px solid $sign-in-border;
+  border-right: 1px solid $sign-in-border;
+}
+
+/*! Sign in style end*/
 
 /**
   MEDIA QUERIES
@@ -727,6 +784,7 @@ blockquote{
 	hr{
 		border:none;
 	}
+
 	/*Form style end*/
 
 
