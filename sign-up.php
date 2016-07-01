@@ -425,7 +425,7 @@
                 <div class="row">
                     <div class="checkbox col-md-8">
                       <label>
-                        <input type="checkbox"> I have read and agreed to the Terms and Conditions
+                        <input type="checkbox"> I have read and agreed to the <a hreff="">Terms and Conditions</a>
                       </label>
                     </div>
                     <div class="checkbox col-md-4">
