@@ -8,6 +8,7 @@ $orange-default:#fbb13c;
 $orange-default-hover:#d58b16;
 $red-default:#ee6352;
 $dark-grey-default:#6c6c6c;
+$dark-grey-default-hover:#464646;
 $grayish-blue-default:#34333e;
 $lime-green:#73b989;
 $nav-bg:#34333e;
@@ -86,6 +87,7 @@ hr {
   border-top:1px solid $step-wizard-line;
   margin-top:0pc;
 }
+
 /*! text style end*/
 
 /*! margin padding style end*/
@@ -99,6 +101,10 @@ hr {
 
 .margin-top-14{
 	margin-top:14px !important;
+}
+
+.margin-top-15{
+  margin-top:15px !important;
 }
 
 .margin-top-20{
@@ -164,7 +170,7 @@ hr {
 
 
 .btn-small, .btn-small:hover{
-    padding: 15px 40px; 
+    padding: 15px 10px; 
     font-size: 1.05vw;
     @include border-radius(6px);
 }
@@ -196,14 +202,14 @@ hr {
 
 .btn-secondary {
     color: #fff;
-    background-color: $orange-default;
-    border-color: $orange-default;
+    background-color: $dark-grey-default;
+    border-color: $dark-grey-default;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: $orange-default-hover;
-    border-color: $orange-default-hover;
+    background-color: $dark-grey-default-hover;
+    border-color: $dark-grey-default-hover;
     transition: all 0.5s ease 0s;
 }
 
@@ -222,6 +228,7 @@ a:focus, a:hover {
 
 .input-sm{
   background:$input-bg;
+  height: 50px;
 }
 
 .sign-up-text-area{
@@ -255,6 +262,27 @@ a:focus, a:hover {
   height: 49px;
 }
 
+.styled-select{
+  padding-top:0px;
+}
+
+.styled-select select {
+  padding: 25px 10px !important;
+}
+
+.styled-select option {
+   height: 29px;
+   padding: 50px; /* If you add too much padding here, the options won't show in IE */
+
+}
+
+.border-bottom-none{
+  border-bottom:0px;
+}
+
+.display-inline{
+  display: inline-block;
+}
 /*! formstyle end*/
 
 /*! nav style start*/
@@ -500,6 +528,10 @@ a:focus, a:hover {
 .q-consultant-bottom{
 	padding: 32px 0 60px 0px;
 }
+
+.small, small{
+  font-size: 100%;
+}
 /*! consultant style end*/
 
 /*! template style start*/
@@ -703,7 +735,7 @@ blockquote{
 }
 /*! Carousel style end*/
 
-/*! How it works style end*/
+/*! How it works style start*/
 .stepwizard-row:before {
     top: 14px;
     bottom: 0;
@@ -758,6 +790,169 @@ blockquote{
 }
 
 /*! Sign in style end*/
+
+/*! Step wizard style start*/
+
+.tabel-v-lign{
+  td{
+    vertical-align: middle !important;
+  }
+  
+}
+
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin-bottom: 0;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard .nav-tabs > li > .active > a{
+    color: #fff !important;
+    cursor: pointer;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard .nav-tabs > li > a{
+    color: #000;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+
+span.round-tab {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    color: #CCCCCC;
+    background: #F8F8F8;
+    border: 1px solid #CCC;
+    z-index: 2;
+    position: absolute;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #263642;
+    border: 2px solid #263642;
+    color: #fff;
+
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 33.3%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    
+    transition: 0.1s ease-in-out;
+}
+
+.wizard .nav-tabs > li a {
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 90px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+.step-number{
+  position:relative;
+  float:left;
+  width:30px;
+  text-align: center;
+  padding: 0 15px 5px;
+  font-size: 4vh;
+}
+
+.step-title{
+  padding-left:10px;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+/*! Step wizard style end*/
+
+
 
 /**
   MEDIA QUERIES
@@ -845,6 +1040,10 @@ blockquote{
     font-size: 3vw;
     
 	}
+
+  .line-height-50{
+    line-height: 50px !important;
+  }
 /*! text style end*/
 
 	/*Form style start*/
@@ -856,7 +1055,6 @@ blockquote{
 	hr{
 		border:none;
 	}
-
 	/*Form style end*/
 
 
