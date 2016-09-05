@@ -30,8 +30,8 @@
       <section id="q-hero">
         <div class="container-fluid blue-default q-hero">
           <div class="container text-center">
-            <h2>Top Consulting Talent On Demand</h2>
-            <h4>Get instant access to top strategy, marketing and finance consultants.</h4>
+            <h2>In a world driven by technology, people make all the difference</h2>
+            <h4>One Platform. A world of talent for your business.</h4>
             <a href="" class="btn btn-primary">Submit a Project</a>        
           </div> 
 
@@ -47,35 +47,35 @@
               <div class="col-md-4">
                  <img src="img/service-icon-1.png" alt="">
                  <h5 class="margin-top-clear margin-top-20">Digital Services</h5>
-                 <p class="margin-bottom-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <p class="margin-bottom-50">Our experienced consultants are pioneers in digital services, both in Australia and overseas...</p>
                  <hr class="featurette-divider margin-left-70 margin-right-70"> 
               </div>
               <div class="col-md-4">
                  <img src="img/service-icon-2.png" alt="">
                  <h5 class="margin-top-clear margin-top-20">Application Services</h5>
-                 <p class="margin-bottom-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <p class="margin-bottom-50">Driving business growth depends on the effective management of your information systems...</p>
                  <hr class="featurette-divider margin-left-70 margin-right-70"> 
               </div>
               <div class="col-md-4">
                  <img src="img/service-icon-3.png" alt="">
                  <h5 class="margin-top-clear margin-top-20">Graphic Design</h5>
-                 <p class="margin-bottom-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <p class="margin-bottom-50">Qantle’s graphic designers can transform your business through enhancing visual communication...</p>
                  <hr class="featurette-divider margin-left-70 margin-right-70"> 
               </div>
               <div class="col-md-4 margin-top-30">
                  <img src="img/service-icon-4.png" alt="">
                  <h5 class="margin-top-clear margin-top-20">Business Analysis & BPM</h5>
-                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+                 <p class="">Qantle offers extensive business analysis services, starting with defining the needs of an organisation...</p> 
               </div>
               <div class="col-md-4 margin-top-30">
                  <img src="img/service-icon-5.png" alt="">
                  <h5 class="margin-top-clear margin-top-20">Business Consultancy</h5>
-                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <p class="">Qantle offers a broad range of professional services, all designed to guide your...</p>
               </div>
               <div class="col-md-4 margin-top-30">
                  <img src="img/service-icon-6.png" alt="">
                  <h5 class="margin-top-clear margin-top-20">Policy</h5>
-                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <p class="">Our highly educated policy consultants will offer you a comprehensive, professional service depending...</p>
               </div>
             </div>
             </div>
@@ -95,24 +95,42 @@
         <section id="q-why-quantile">
           <div class="container">
             <div class="col-md-12 q-why-quantile text-center">
-             <h3 class="margin-bottom-50 margin-top-clear">Why Qantile?</h3>
-             <div class="col-md-6 text-left block-1 margin-bottom-50">
-               <h5>Lorem Ipsum is simply dummy text</h5>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+             <h3 class="margin-bottom-50 margin-top-clear">Why Qantle?</h3>
+             <div class="col-md-6 text-left block-1">
+               <h5>Your Intellectual Property, Our Guarantee of Protection</h5>
+               <p>Your ideas are submitted securely to Qantle, and not the public domain. We then allocate your projects to our hand-picked, registered consultants, protecting and nurturing your unique ideas.</p>
              </div>
-             <div class="col-md-6 text-left block-2 margin-bottom-50">
-               <h5>Lorem Ipsum is simply dummy text</h5>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+             <div class="col-md-6 text-left block-2">
+               <h5>Access to our leading, experienced consultants</h5>
+               <p>Our consultants are pioneers in their areas of expertise.  They have worked with Australian Government departments and Blue-chip companies, Silicon valley and  international corporations. They are ready to merge their talents and insights with your projects. You will be able to review fantastic proposals before you select your consultants.  You can also access a team of consultants, across multiple skill areas to cater to your project.</p>
              </div>
-             <div class="col-md-6 text-left block-3 margin-bottom-50">
-               <h5>Lorem Ipsum is simply dummy text</h5>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+             </div>
+             <div class="col-md-12 q-why-quantile text-center">             
+             <div class="col-md-6 text-left block-3">
+               <h5>Unique Project Monitoring Tools</h5>
+               <p>Qantle’s in-built project management tools empower you by enabling you to monitor your projects via your own, private dashboard, free.</p>
              </div>
              <div class="col-md-6 text-left block-4">
-               <h5>Lorem Ipsum is simply dummy text</h5>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+               <h5>On demand projects - Just a click away</h5>
+               <p>You can find the professional skill sets you need for your projects, on demand, for the duration of your choosing, via our exclusive, sophisticated, easy to use Qantle platform.</p>
              </div>
-            </div>
+             </div>
+             <div class="col-md-12 q-why-quantile text-center">
+             <div class="col-md-6 text-left block-1">
+               <h5>Delivery assurance</h5>
+               <p>Qantle’s support team will be with you throughout your project journey, deliveringsuccessful projects to your dashboard.</p>
+             </div>
+             <div class="col-md-6 text-left block-2">
+               <h5>Hassle-free process</h5>
+               <p>You won’t worry about searching & interviewing consultants, drafting contracts, invoicing and project management issues - everything is seamlessly managed through our secure, easy-to-use platform.</p>
+             </div> 
+             </div>
+             <div class="col-md-12 q-why-quantile text-center margin-bottom-50">
+             <div class="col-md-6 text-left block-3">
+               <h5>Value for money</h5>
+               <p>Work without overheads! You will make your full, final payment only when your project is completed successfully, to your satisfactions. You also have the option to nominate a budget, and we will do our best to deliver within your chosen amount.</p>
+             </div>                          
+             </div>
           </div>            
         </section>
       <!--why quantile section end--> 
@@ -156,14 +174,10 @@
                               <img src="img/quote.png">
                             </div>
                             <div class="col-sm-9 padding-left-clear">
-                              <p class="col-md-12 q-quote-des">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                              <p class="col-md-12 q-quote-des">Qantle consultants were instrumental in supporting a major Australian state (NSW) government restructure program. The division I lead the change on required a strong and strategic team to carry through several transition projects through to completion. Qantle team was able to take initiative, problem-solve creatively and deliver with professionalism and to a high quality. The team navigated a highly complex and challenging reform with integrity, focus and precision.</p>
                               <div class="client-image">
-                                <div class="col-md-6 text-right client-info">
-                                  <div class="client-name">Name of the client</div>
-                                  <div class="company-name">Company</div>
-                                </div>
-                                <div class="col-md-6 padding-left-clear">
-                                  <img src="img/client-01.png" alt="">
+                                <div class="col-md-12 text-right client-info">
+                                  <div class="client-name">Organisational Change Management Consultant</div>
                                 </div>
                               </div>
                             </div>
@@ -178,21 +192,17 @@
                               <img src="img/quote.png">
                             </div>
                             <div class="col-sm-9 padding-left-clear">
-                              <p class="col-md-12 q-quote-des">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                              <p class="col-md-12 q-quote-des">Qantle business services platform gave us access to a team of professionals, so that we could execute our company’s digital strategy. An expert team of business process analysts, solution architects, web and mobile designers, customer experience designers, digital marketing developers, data migration specialists, IP advisors, digital security providers and testers all contributed to building a better business on our behalf. The project was managed by Qantle’s support team, made all the difference to us as we worked on our complex project.</p>
                               <div class="client-image">
-                                <div class="col-md-6 text-right client-info">
-                                  <div class="client-name">Name of the client</div>
-                                  <div class="company-name">Company</div>
-                                </div>
-                                <div class="col-md-6 padding-left-clear">
-                                  <img src="img/client-02.png" alt="">
+                                <div class="col-md-12 text-right client-info">
+                                  <div class="client-name"><br> Director-Business Transformation Program</div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </blockquote>
                       </div>
-                      <!-- Quote 3 -->
+                      <!-- Quote 2 -->
                       <div class="item">
                         <blockquote>
                           <div class="row">
@@ -200,24 +210,16 @@
                               <img src="img/quote.png">
                             </div>
                             <div class="col-sm-9 padding-left-clear">
-                              <p class="col-md-12 q-quote-des">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                              <p class="col-md-12 q-quote-des">As the founder and CEO of a dynamic, disruptive creative start-up, I felt there was nothing quite like the Qantle experience. Its consultants and experts are not only consummate and knowledgeable in their respective fields; they are adaptive, flexible, innovative and able to meet every conceivable challenge thrown out by the wild west that is the internet. I couldn’t have asked for better partners at the critical inception to construction stage of my start-up.</p>
                               <div class="client-image">
-                                <div class="col-md-6 text-right client-info">
-                                  <div class="client-name">Name of the client</div>
-                                  <div class="company-name">Company</div>
-                                </div>
-                                <div class="col-md-6 padding-left-clear">
-                                  <img src="img/client-03.png" alt="">
+                                <div class="col-md-12 text-right client-info">
+                                  <div class="client-name">CEO, creative start-up </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </blockquote>
-                      </div>                        
-                    </div>
-                    <!-- Carousel Buttons Next/Prev -->
-          <!--           <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> -->
+                      </div>
                   </div>                          
                 </div>
               </div>
@@ -233,29 +235,29 @@
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">1.</span>
-                    <h5>Write Project Proposal</h5>
+                    <h5>Your Project Brief</h5>
                     <p class="margin-bottom-20">Client completes the online project brief  & the project  is listed on the Qantle platform for free!</p>
                   </div>
                 </div>
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">2.</span>
-                    <h5>Post Project</h5>
-                    <p class="margin-bottom-20">Registered consultants post proposals  & Qantle sends a short listed pitches  to the client  dashboard</p>
+                    <h5>Pitch</h5>
+                    <p class="margin-bottom-20">Within days Qantle platform will send a shortlist of consultants along with a proposal, to your dashboard.</p>
                   </div>
                 </div>
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">3.</span>
-                    <h5>Select Consultant</h5>
-                    <p class="margin-bottom-20">Client selects the consultant & now the project is in progress, monitored by Qantle</p>
+                    <h5>In progress</h5>
+                    <p class="margin-bottom-20">You have selected your consultant or team and your project is underway. Our Qantle project management tool will keep you informed of the progress.</p>
                   </div>
                 </div>
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">4.</span>
-                    <h5>Receive Final Project</h5>
-                    <p class="margin-bottom-20">Success! Your project is delivered on time</p>
+                    <h5>Delivery</h5>
+                    <p class="margin-bottom-20">Your project is completed on time within budget. Great result, without stress.</p>
                   </div>
                 </div>
                 <div class="col-md-12">
@@ -286,13 +288,13 @@
                 <h3 class="margin-bottom-50 margin-top-clear">Some of our talented Consultants</h3>
                 <div class="col-md-12">
                 <div class="col-md-4 col-sm-4 center-block col-xs-4">
-                  <img src="img/consultant-01.png" alt="">
+                  <img src="img/oliver-townshend.png" alt="">
                 </div>
                 <div class="col-md-4 col-sm-4 center-block col-xs-4">
-                  <img src="img/consultant-02.png" alt="">
+                  <img src="img/dmitry-zakharav.png" alt="">
                 </div>
                 <div class="col-md-4 col-sm-4 center-block col-xs-4">
-                  <img src="img/consultant-03.png" alt="">
+                  <img src="img/don-ticchio.png" alt="">
                 </div>
                 </div>
               </div>
@@ -300,16 +302,16 @@
             <div class="container-fluid red-default q-consultant-bottom">     
               <div class="container text-center">
                 <div class="col-md-4 col-sm-4 col-xs-4">
-                  <h5>Consultant’s Name</h5>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <h5>Oliver Townshend</h5>
+                  <p>An expert in data and information architecture and a respected transformation specialist in legal services, banking and financial services industries in Australia, UK, USA and Canada for over 25 years.</p>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4">
-                  <h5>Consultant’s Name</h5>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <h5>Dmitry  Zakharav</h5>
+                  <p>Energetic and result-oriented business analyst, with over 11 years’ experience both in Australia and overseas, and has worked primarily in large-scale governmental and enterprise projects.</p>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4">
-                  <h5>Consultant’s Name</h5>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <h5>Don Ticchio</h5>
+                  <p>Is an imaginative graphic designer with over 35 years’ experience creating campaigns,  advertising and product material for major brands worldwide.</p>
                 </div>
                 <div class="col-md-12">
                   <a href="" class="btn btn-secondary  margin-top-40">Join as a Consultant</a>

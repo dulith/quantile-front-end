@@ -88,6 +88,9 @@ hr {
   margin-top:0pc;
 }
 
+blockquote{
+  font-size: 14px;
+}
 /*! text style end*/
 
 /*! margin padding style end*/
@@ -443,7 +446,7 @@ a:focus, a:hover {
 
 /*! why quantile style start*/
 .q-why-quantile{
-	padding:60px 0 60px 0px;
+	padding:60px 0 0px 0px;
 
 	.block-1{
 		border-left: 6px $blue-default solid;

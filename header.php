@@ -104,12 +104,7 @@
           <button type="button" class="btn nav-btn-primary col-xs-12 dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"">Sign up</button>
           <ul class="dropdown-menu margin-top-14">
             <li><a href="#">Client</a></li>
-            <li><a href="#">Digital Services</a></li>
-            <li><a href="#">Application Services</a></li>
-            <li><a href="#">Graphic Design</a></li>
-            <li><a href="#">Business Analysis & BPM</a>     
-            <li><a href="#">Business Consulting</a>   
-            <li><a href="#">Policy</a>
+            <li><a href="#">Consultant</a></li>
           </ul>
         </li>
       </ul>
