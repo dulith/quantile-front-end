@@ -235,29 +235,29 @@
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">1.</span>
-                    <h5>Your Project Brief</h5>
-                    <p class="margin-bottom-20">Client completes the online project brief  & the project  is listed on the Qantle platform for free!</p>
+                    <h5>Create a Project Brief</h5>
+                    <p class="margin-bottom-20">Posting a project is easy and free with the inbuilt Qantle <i>project brief</i> form. Let us know the objectives, requirements, budget and timeline.</p>
                   </div>
                 </div>
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">2.</span>
-                    <h5>Pitch</h5>
-                    <p class="margin-bottom-20">Within days Qantle platform will send a shortlist of consultants along with a proposal, to your dashboard.</p>
+                    <h5>Receive a Great Pitch</h5>
+                    <p class="margin-bottom-20">We will send your project to the relevant Qantle consultants, who will in turn send their proposals. We will send the shortlisted proposalsto you, for selection.</p>
                   </div>
                 </div>
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">3.</span>
-                    <h5>In progress</h5>
-                    <p class="margin-bottom-20">You have selected your consultant or team and your project is underway. Our Qantle project management tool will keep you informed of the progress.</p>
+                    <h5>Your Project is on Its Way</h5>
+                    <p class="margin-bottom-20">The selected consultant will agree to the statement of work and commencework on your project. Qantle’s support team will track the progress of your project from inception to completion, ensuring that your expectations are met. </p>
                   </div>
                 </div>
                 <div class="col-md-3 text-left">
                   <div class="stepwizard-row">
                     <span class="stepwizard-step">4.</span>
-                    <h5>Delivery</h5>
-                    <p class="margin-bottom-20">Your project is completed on time within budget. Great result, without stress.</p>
+                    <h5>Your project is completed!</h5>
+                    <p class="margin-bottom-20">Qantle will deliver the completed project to you, for your review. The balance amount is payable once you have accepted the project, declaring it complete. </p>
                   </div>
                 </div>
                 <div class="col-md-12">
